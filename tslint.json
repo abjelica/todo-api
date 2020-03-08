@@ -1,0 +1,13 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+    ],
+    "jsRules": {},
+    "rules": {
+        "interface-name": [false],
+        "quotemark": [false, "single"],
+        "no-console": false,
+        "curly": [true, "ignore-same-line"]
+    },
+    "rulesDirectory": []
+}
