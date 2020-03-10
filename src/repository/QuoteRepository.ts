@@ -1,7 +1,7 @@
 /**
  * @author Ana Bjelica
  */
-import QuoteDB from '../models/mongo/Quote';
+import QuoteDB from '../models/mongoose/Quote';
 import Quote from '../models/Quote';
 
 class QuoteRepository {

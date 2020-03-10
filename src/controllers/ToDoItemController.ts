@@ -45,7 +45,7 @@ class ToDoItemController {
 			await toDoItemService.update(todoItem);
 
 			response.send({
-				sucess: true
+				success: true
 			});
 		} catch (error) {
 			// TODO: Handle error.

@@ -22,7 +22,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 // Connect to mongo and setup bluebird for mongoose.
 mongoose.Promise = bluebird;
-mongoose.connect('mongodb://localhost/todoapp', { useNewUrlParser: true });
+mongoose.connect(config.mongoURL, { useNewUrlParser: true });
 
 // Use routes from separate files.
 app.use(todoRoutes);

@@ -2,7 +2,7 @@
  * @author Ana Bjelica
  */
 import ToDoItem from '../models/ToDoItem';
-import ToDoItemDB from '../models/mongo/ToDoItem';
+import ToDoItemDB from '../models/mongoose/ToDoItem';
 
 class ToDoItemRepository {
 	async create (toDoItem: ToDoItem): Promise<void> {
